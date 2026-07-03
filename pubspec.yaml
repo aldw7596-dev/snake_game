@@ -1,0 +1,13 @@
+name: snake_game
+description: A classic snake game built automatically on Codemagic.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
